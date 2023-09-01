@@ -58,6 +58,16 @@
                     <label for="telefono" class="form-label">Número de Teléfono</label>
                     <input type="tel" class="form-control" id="telefono" name="telefono" required>
                 </div>
+                <div class="mb-3">
+                    <label for="tipo" class="form-label">Tipo</label>
+                    <select class="form-control" id="tipo" name="tipo" required>
+                        <option value="" style="display: none;"></option>
+                        <option value="transito">Tránsito</option>
+                        <option value="iluminacion">Iluminación</option>
+                        <option value="seguridad">Seguridad</option>
+                        <option value="transporte">Transporte</option>
+                    </select>
+                </div>
 
                 <div class="mb-3">
                 <button type="submit" class="btn btn-primary">Enviar</button>
